@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  height: 14vh;
+  background: #FFF159;
+}
+
+.searchSection, .navBar {
+  text-align: center;
+  height: 7vh;
+}
+
+#search {
+  margin-top: 2vh;
+}
+
+.navBar {
+  border: 0.1vh solid black;
+  line-height: 6vh;
+}
+
+.navOptions {
+  margin-left: 2vw;
+  text-decoration: none;
+  color: black;
+}
+
+.navOptions:hover {
+  transition-duration: 0.4s;
+  padding: 0.5%;
+  background-color: darkkhaki;
+}
+
+.content {
+  height: 86vh;
+  background-color: #d8d8d8;
+  text-align: center;
+}
+
+.benefits {
+  height: 15vh;
+  background-color: white;
+  border-radius: 1vh;
+}
+
+.firstOffer, .Offers {
+  height: 15vh;
+  width: 20vw;
+  float: left;
+  text-align: left;
+}
+
+.firstOffer {
+  border-right: 0.3vh solid rgb(190, 189, 189);
+}
+
+.offerTittle {
+  margin-top: 3.5vh;
+}
+
+h2, h3 {
+  margin-left: 1vw;
+}
+
+.contents {
+  width: 80vw;
+  margin-top: 5vh;
+  display: inline-block;
+}
+
+/* Cadastro */ 
+
+.signUp {
+  width: 30vw;
+  height: 50vh;
+  text-align: left;
+  display: inline-block;
+  background-color: beige;
+  border-radius: 2vh;
+}
+
+
+.formItems {
+  margin-left: 9vw;
+  margin-top: 5vh;
+  padding-top: 2.5vh;
+}
+
+/* --------------- */
+
+.marketItem {
+  width: 15vw;
+  height: 450px;
+  overflow: hidden;
+  float: left;
+  margin-left: 2.5vh;
+  margin-right: 2.5vh;
+  background-color: white;
+  text-align: left;
+}
+
+.marketItem:hover {
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  height: 550px;
+}
+
+.linha {
+  width: 300px;
+  border: 0.2px solid rgb(71, 70, 70);
+}
+
+.marketItem h2{
+
+  color: darkgreen;
+  font-size: 2vh;
+  margin-left: 1vw;
+}
+
+.marketItem h3{
+  color: red;
+  font-size: 1.5vh;
+  margin-left: 1vw;
+  text-decoration: line-through;
+}
