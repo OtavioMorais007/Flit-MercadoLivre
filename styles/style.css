@@ -115,8 +115,8 @@ h2, h3 {
   height: 450px;
   overflow: hidden;
   float: left;
-  margin-left: 2.5vh;
-  margin-right: 2.5vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
   background-color: white;
   text-align: left;
 }
@@ -125,6 +125,9 @@ h2, h3 {
   transition-duration: 0.5s;
   transition-timing-function: linear;
   height: 550px;
+  -webkit-box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 32px 3px rgba(0,0,0,0.75);
 }
 
 .linha {
@@ -133,14 +136,12 @@ h2, h3 {
 }
 
 .marketItem h2{
-
-  color: darkgreen;
   font-size: 2vh;
-  margin-left: 1vw;
+  margin-left: 1.1vw;
 }
 
 .marketItem h3{
-  color: red;
+  color: gray;
   font-size: 1.5vh;
   margin-left: 1vw;
   text-decoration: line-through;
